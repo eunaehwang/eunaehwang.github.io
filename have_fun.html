@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/have__fun.css" />
+    <script src="/js/banner_slider.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/a095ea9ec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+    <title>have fun</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- 로고 -->
+        <a href="index.html" class="nav__link">HOME</a>
+      </nav>
+    </header>
+    <main>
+      <div class="banner-container">
+        <div class="banner">
+          <div class="slide" id="slide-1">
+            <img src="/images/work/work-photo.png" alt="Image 1" />
+          </div>
+          <div class="slide" id="slide-2">
+            <img src="/images/work/work-card.jpg" alt="Image 2" />
+          </div>
+          <div class="slide" id="slide-3">
+            <img src="/images/work/work-photo.png" alt="Image 3" />
+          </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </main>
+  </body>
+</html>

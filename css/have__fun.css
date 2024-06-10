@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url(/css/global.css);
+@import url(/css/style.css);
+
+/* Header */
+.header {
+  color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--font-weight-medium);
+  height: var(--header-height);
+  margin-left: var(--spacing-3);
+  margin-right: var(--spacing-3);
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-left: var(--spacing-3);
+}
+.nav__item:nth-child(1) {
+  margin-left: 0;
+}
+.nav__link {
+  color: var(--primary-color);
+  /* 기준값 */
+  position: relative;
+}
+
+.active-link::after,
+.nav__link:hover::after {
+  background-color: var(--primary-color);
+  height: 0.1rem;
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 2rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-container {
+  position: relative;
+  max-width: 60vw;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: var(--header-height);
+}
+
+.banner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.prev,
+.next {
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: none; /* Initially hidden */
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

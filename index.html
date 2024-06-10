@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <script src="./js/main.js" defer></script>
     <script
@@ -31,7 +31,7 @@
     />
     <meta
       property="og:image"
-      content="http://eunaehwang.github.io/images/og__image.png"
+      content="http://.github.io/images/og__image.png"
     />
     <meta property="og:url" content="https://eunaehwang.github.io" />
     <meta property="og:type" content="website" />
@@ -63,7 +63,7 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <!-- have fun! -->
-        <a href="#" class="nav__link dokdo_font">HAVE FUN  <i class="fa-regular fa-face-smile"></i></a>
+        <a href="have_fun.html" class="nav__link dokdo_font">HAVE FUN  <i class="fa-regular fa-face-smile"></i></a>
       </nav>
     </header>
     <main id="home">
@@ -439,11 +439,11 @@
             target="_self"
             title="엽서"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-card.jpg"
-              alt="엽서"
-            />
+          <div class="image-hover-container">
+            <img class="work__img" src="./images/work/work-card.jpg" alt="엽서" />
+            <!-- 호버하면 나오는 글씨 -->
+            <div class="hover-text">엽서 디자인</div>
+          </div>
           </a>
 
           <a
@@ -452,11 +452,14 @@
             target="_self"
             title="라벨"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-label.jpg"
-              alt="라벨"
-            />
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-label.jpg"
+                alt="라벨"
+              />
+              <div class="hover-text">라벨 디자인</div>
+            </div>
           </a>
 
           <a
@@ -465,11 +468,14 @@
             target="_self"
             title="스티커"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-sticker.jpg"
-              alt="스티커"
-            />
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-sticker.jpg"
+                alt="스티커"
+              />
+              <div class="hover-text">스티커 디자인</div>
+            </div>
           </a>
 
           <a
@@ -478,11 +484,14 @@
             target="_self"
             title="광고소재"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-sns.jpg"
-              alt="광고소재"
-            />
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-sns.jpg"
+                alt="광고소재"
+              />
+              <div class="hover-text">광고 소재 디자인</div>
+            </div>
           </a>
 
           <a
@@ -491,11 +500,14 @@
             target="_self"
             title="상세페이지"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-detail.jpg"
-              alt="상세페이지"
-            />
+           <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-detail.jpg"
+                alt="상세페이지"
+              />
+              <div class="hover-text">상세페이지 제작</div>
+           </div>
           </a>
 
           <a
@@ -504,11 +516,14 @@
             target="_self"
             title="촬영 및 보정 작업"
           >
-            <img
-              class="work__img"
-              src="./images/work/work-photo.png"
-              alt="촬영 및 보정 작업"
-            />
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-photo.png"
+                alt="촬영 및 보정 작업"
+              />
+              <div class="hover-text">촬영</div>
+            </div>
           </a>
         </div>
       </section>
