@@ -39,20 +39,8 @@
   <body>
     <header class="header">
       <nav class="nav container">
-        <!-- 이미지(로고위치) -->
-        <!-- <div class="nav__logo">
-          <i class="fa-solid fa-circle">
-            <a href="#"></a>
-          </i>
-        </div> -->
-        <div class="nav__logo">
-          <ul class="nav__home">
-            <li>
-              <a href="#" class="nav__link">HOME</a>
-            </li>
-          </ul>
-        </div>
-
+        <!-- 로고 -->
+        <a href="#" class="nav__link">HOME</a>
         <!-- 메뉴 -->
         <div class="nav__menu" id="nav__menu">
           <ul class="nav__list">
@@ -66,7 +54,7 @@
               <a href="#works" class="nav__link">WORK</a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__link">RESUME</a>
+              <a href="#contact" class="nav__link">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -74,6 +62,8 @@
         <div class="nav__toggle" id="nav-toggle">
           <i class="fa-solid fa-bars"></i>
         </div>
+        <!-- have fun! -->
+        <a href="#" class="nav__link dokdo_font">HAVE FUN  <i class="fa-regular fa-face-smile"></i></a>
       </nav>
     </header>
     <main id="home">
@@ -525,9 +515,9 @@
 
       <!-- contact -->
       <section class="contact section" id="contact">
-        <h2 class="section__title">contact</h2>
-
-        <div class="contact__container container">
+        <h2 class="section__title">CONTACT <br> ME ! </h2>
+        <div class="contact__container">
+          
           <form
             id="contactForm"
             class="contact__form gform"
@@ -558,13 +548,44 @@
               placeholder="내용"
               required
             ></textarea>
-            <button
-              class="contact__button button"
-              type="submit"
-              form="contactForm"
-            >
-              보내기
-            </button>
+            <div class="form__footer">
+              <div class="contact__social">
+                <a
+                  href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
+                  target="_blank"
+                  title="인스타그램 링크"
+                  ><i class="fa-brands fa-square-instagram contact__icon"></i
+                ></a>
+                <a
+                  href="https://github.com/eunaehwang"
+                  target="_blank"
+                  title="깃허브 링크"
+                  ><i class="fa-brands fa-github contact__icon"></i
+                ></a>
+              </div>
+              <button
+                class="contact__button button"
+                type="submit"
+                form="contactForm"
+              >
+                보내기
+              </button>
+            </div>
+            </form>
+            <!-- <div class="contact__social">
+              <a
+                href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
+                target="_blank"
+                title="인스타그램 링크"
+                ><i class="fa-brands fa-square-instagram contact__icon"></i
+              ></a>
+              <a
+                href="https://github.com/eunaehwang"
+                target="_blank"
+                title="깃허브 링크"
+                ><i class="fa-brands fa-github contact__icon"></i
+              ></a>
+            </div> -->
             <!-- 양식 제출 시 나오는 메시지 -->
             <div style="display: none" class="thankyou_message">
               <h2>
@@ -584,25 +605,6 @@
 
     <!-- footer -->
     <footer class="footer">
-      <p class="footer__title">eunae hwang</p>
-
-      <div class="footer__social">
-        <!-- <a href="#" target="_blank" title="유튜브 링크"
-          ><i class="fa-brands fa-youtube footer__icon"></i
-        ></a> -->
-        <a
-          href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
-          target="_blank"
-          title="인스타그램 링크"
-          ><i class="fa-brands fa-square-instagram footer__icon"></i
-        ></a>
-        <a
-          href="https://github.com/eunaehwang"
-          target="_blank"
-          title="깃허브 링크"
-          ><i class="fa-brands fa-github footer__icon"></i
-        ></a>
-      </div>
       <p class="footer__copy">
         Copyright &copy; 2024 eunae's portfolio All rights reserved.
       </p>
