@@ -399,6 +399,18 @@ body {
   display: block;
 }
 
+/* Thanks */
+.thanks {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background-image: url(/images/home/end.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-size: 100vw;
+}
+
 /* Footer */
 .footer {
   background-color: var(--primary-color);
