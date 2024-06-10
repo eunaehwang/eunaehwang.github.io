@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/a095ea9ec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+    <title>portfolio</title>
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="웹 디자이너 황은애의 포트폴리오 입니다. 웹 디자인과 퍼블리싱을 함께 작업합니다."
+    />
+    <meta name="author" content="EunAe Hwang" />
+    <meta name="keywords" content="웹퍼블리싱, 웹디자인, 포토그래퍼" />
+
+    <!-- eunaehwang.github.io -->
+    <meta property="og:title" content="eunae's portfolio" />
+    <meta
+      property="og:description"
+      content="웹 디자이너 황은애의 포트폴리오 입니다. 웹 디자인과 퍼블리싱을 함께 작업합니다."
+    />
+    <meta
+      property="og:image"
+      content="http://eunaehwang.github.io/images/og__image.png"
+    />
+    <meta property="og:url" content="https://eunaehwang.github.io" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- 이미지(로고위치) -->
+        <!-- <div class="nav__logo">
+          <i class="fa-solid fa-circle">
+            <a href="#"></a>
+          </i>
+        </div> -->
+        <div class="nav__logo">
+          <ul class="nav__home">
+            <li>
+              <a href="#" class="nav__link">HOME</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 메뉴 -->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">SKILLS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">WORK</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">RESUME</a>
+            </li>
+          </ul>
+        </div>
+        <!-- 반응형 메뉴바 -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main id="home">
+      <!-- home -->
+      <section class="home container section">
+        <!-- Home Data -->
+        <div class="home__data">
+          <p id="type-it" class="home__text"></p>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <h2 class="section__title">ABOUT</h2>
+        <div class="about__container container">
+          <!-- 문자열 -->
+          <div class="about__data">
+            <!-- <h3 class="about__subtitle">성장하는 것을 좋아합니다.</h3> -->
+            <p class="about__text">
+              타인을 이해하고, 공감하는 능력이 디자인 감각과 병행되어 서비스로
+              제공 되어질 때 <br />
+              비로서 디자이너로서의 행복과 가치를 느끼는 디자이너 입니다.<br />
+              <br />
+              지난 3년간 다양한 작업들을 통해, 회사와 저는 함께
+              성장해왔습니다.<br />
+              <br />
+              뛰어난 공감 능력과 타인을 이해할 수 있는 배려심을 통해<br />
+              귀사의 가치인 '더 건강한 아름다움'을 소비자들에게 전달하면서<br />
+              한번 더 성장하길 기대하고 있습니다.
+            </p>
+          </div>
+          <!-- 이미지 -->
+          <div>
+            <img
+              class="about__img"
+              src="./images/about/about.png"
+              alt="프로필사진"
+            />
+          </div>
+        </div>
+        <!-- floating icon -->
+
+        <img
+          class="floating__01"
+          src="/images/about/floatingIcon__01.png"
+          alt="귤 이미지"
+        />
+
+        <img
+          class="floating__02"
+          src="/images/about/floatingIcon__02.png"
+          alt="돌 이미지"
+        />
+
+        <img
+          class="floating__03"
+          src="/images/about/floatingIcon__03.png"
+          alt="섬 이미지"
+        />
+
+        <img
+          class="floating__04"
+          src="/images/about/floatingIcon__04.png"
+          alt="텐트 이미지"
+        />
+
+        <img
+          class="floating__05"
+          src="/images/about/floatingIcon__05.png"
+          alt="섬2 이미지"
+        />
+      </section>
+
+      <!-- skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">SKILLS</h2>
+
+        <div class="skills__container container">
+          <!-- 스킬 데이터 (디자인툴) -->
+          <div>
+            <h3 class="skills__subtitle">Design</h3>
+            <p class="skills__text">
+              어도비 일러스트, 포토샵, 라이트룸 등 디자인 툴을 다룰 수 있습니다.
+              <br />
+              캡컷과 같은 영상편집 툴의 기본적인 이해도가 있으며, <br />
+              sns 광고소재를 이미지와 영상으로 제작하는 업무도 해왔습니다.
+            </p>
+            <div class="graph__container">
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/Illustrator.png"
+                    alt="어도비 일러스트 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">Adobe Illustrator</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">90%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="illustrator"
+                  max="100"
+                  value="90"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/Photoshop.png"
+                    alt="어도비 포토샵 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">Adobe photoshop</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="photoshop"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/InDesign.png"
+                    alt="어도비 인디자인 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">Adobe InDesign</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="indesign"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+            </div>
+          </div>
+
+          <!-- 스킬 데이터 (퍼블리싱) -->
+          <div>
+            <h3 class="skills__subtitle">Publishing</h3>
+            <p class="skills__text">
+              웹 퍼블리싱의 기본을 알고 있으며, <br />
+              기존 웹사이트의 유지보수가 가능하고<br />
+              반응형 웹페이지에 대한 이해도가 있습니다.
+            </p>
+            <div>
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-html5 skills__icon"></i>
+                  <!-- skill name -->
+                  <span class="skill__name">HTML 5</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">90%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="html5"
+                  max="100"
+                  value="90"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-css3-alt skills__icon"></i>
+                  <!-- skill name -->
+                  <span class="skills__name">CSS 3</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="css3"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <i class="fa-brands fa-js skills__icon"></i>
+                  <!-- skill name -->
+                  <span class="skills__name">JavaScript</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">75%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="javascript"
+                  max="100"
+                  value="75"
+                ></progress>
+              </article>
+            </div>
+          </div>
+
+          <!-- 스킬 데이터 (MS Office) -->
+          <div>
+            <h3 class="skills__subtitle">MS Office</h3>
+            <p class="skills__text">ms offfice 사용해서 어쩌고 저쩌고 내용</p>
+            <div>
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/Exel.png"
+                    alt="엑셀 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">Exel</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">90%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="illustrator"
+                  max="100"
+                  value="90"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/Word.png"
+                    alt="워드 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">Word</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="photoshop"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/PowerPoint.png"
+                    alt="파워포인트 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skills__name">PowerPoint</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="indesign"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+            </div>
+          </div>
+
+          <!-- 스킬 데이터 (Photo) -->
+          <div>
+            <h3 class="skills__subtitle">Photo</h3>
+            <p class="skills__text">dslr로 촬영 내용 블라블라</p>
+            <div>
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <i class="fa-solid fa-camera skills__icon"></i>
+                  <!-- skill name -->
+                  <span class="skills__name">DSLR</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">80%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="photoshop"
+                  max="100"
+                  value="80"
+                ></progress>
+              </article>
+
+              <article class="skills__data">
+                <div class="skills__names">
+                  <!-- icon -->
+                  <img
+                    class="skills__icon-adobe"
+                    src="./images/skill/Lightroom.png"
+                    alt="포토샵 라이트룸 아이콘"
+                  />
+                  <!-- skill name -->
+                  <span class="skill__name">Adobe Lightroom Classic</span>
+                </div>
+                <div>
+                  <!-- percentage -->
+                  <span class="skills__percentage">90%</span>
+                </div>
+                <!-- progress bar -->
+                <progress
+                  class="skills__progress"
+                  id="lightroom"
+                  max="100"
+                  value="90"
+                ></progress>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- work -->
+      <section class="work section" id="works">
+        <h2 class="section__title">WORK</h2>
+        <div class="work__container container">
+          <a
+            class="work__link"
+            href="work_post.html"
+            target="_self"
+            title="엽서"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-card.jpg"
+              alt="엽서"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="work_label.html"
+            target="_self"
+            title="라벨"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-label.jpg"
+              alt="라벨"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="work_sticker.html"
+            target="_self"
+            title="스티커"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-sticker.jpg"
+              alt="스티커"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="work_ad.html"
+            target="_self"
+            title="광고소재"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-sns.jpg"
+              alt="광고소재"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="work_detail.html"
+            target="_self"
+            title="상세페이지"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-detail.jpg"
+              alt="상세페이지"
+            />
+          </a>
+
+          <a
+            class="work__link"
+            href="work_photo.html"
+            target="_self"
+            title="촬영 및 보정 작업"
+          >
+            <img
+              class="work__img"
+              src="./images/work/work-photo.png"
+              alt="촬영 및 보정 작업"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">contact</h2>
+
+        <div class="contact__container container">
+          <form
+            id="contactForm"
+            class="contact__form gform"
+            method="POST"
+            data-email="euuuunae@gmail.com"
+            action="https://script.google.com/macros/library/d/1zwaeSUQcNWZBsDZBNE1kheXpnvSDklYTZKRdGCrg6DsQuKph2SdDu1RS/1"
+          >
+            <input
+              class="contact__input"
+              type="email"
+              name="senderEmail"
+              placeholder="이메일 주소"
+              required
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="senderEmail"
+              placeholder="이름"
+              required
+            />
+            <textarea
+              class="contact__input"
+              name="senderEmail"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="내용"
+              required
+            ></textarea>
+            <button
+              class="contact__button button"
+              type="submit"
+              form="contactForm"
+            >
+              보내기
+            </button>
+            <!-- 양식 제출 시 나오는 메시지 -->
+            <div style="display: none" class="thankyou_message">
+              <h2>
+                <em>Thanks</em> for contacting us! We will get back to you soon!
+              </h2>
+            </div>
+          </form>
+        </div>
+      </section>
+      <button class="floating-button" id="floating-button">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer__title">eunae hwang</p>
+
+      <div class="footer__social">
+        <!-- <a href="#" target="_blank" title="유튜브 링크"
+          ><i class="fa-brands fa-youtube footer__icon"></i
+        ></a> -->
+        <a
+          href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
+          target="_blank"
+          title="인스타그램 링크"
+          ><i class="fa-brands fa-square-instagram footer__icon"></i
+        ></a>
+        <a
+          href="https://github.com/eunaehwang"
+          target="_blank"
+          title="깃허브 링크"
+          ><i class="fa-brands fa-github footer__icon"></i
+        ></a>
+      </div>
+      <p class="footer__copy">
+        Copyright &copy; 2024 eunae's portfolio All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
