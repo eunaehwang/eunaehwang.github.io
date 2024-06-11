@@ -57,10 +57,12 @@ body {
 
 .banner-container {
   position: relative;
-  max-width: 60vw;
+  height: 100vh;
+  width: auto;
   margin: 0 auto;
-  overflow: hidden;
-  margin-top: var(--header-height);
+  overflow: auto;
+  display: flex;
+  align-items: center;
 }
 
 .banner {

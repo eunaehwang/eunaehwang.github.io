@@ -506,7 +506,7 @@
   /* Section */
   .section {
     display: block;
-    height: 95vh;
+    min-height: 95vh;
   }
   .section__title {
     padding-top: 1.5rem;
