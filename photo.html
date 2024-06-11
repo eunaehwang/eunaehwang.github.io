@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/photo.css" />
-    <script src="./js/main.js" defer></script>
     <script src="./js/slider.js" defer></script>
     <script
       src="https://kit.fontawesome.com/a095ea9ec2.js"
@@ -42,130 +41,102 @@
       <nav class="nav container">
         <!-- 로고 -->
         <a href="index.html" class="nav__link">HOME</a>
+        <!-- 메뉴 -->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ad</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">SKILLS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">WORK</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <main id="home">
-      <!-- worklist -->
-      <section class="worklist section" id="worklist">
-        <h2 class="section__title">사진 촬영 및 보정</h2>
-        <p class="worklist__text">
-          반려동물의 움직이는 순간을 촬영하기 위해 조명없이 DSLR로 촬영 후,
-          <br />
-          포토샵 라이트룸으로 색보정을 진행하였습니다.
+    <main>
+      <div class="script-area">
+        <h2>촬영 및 보정</h2>
+        <p>
+          촬영 컨셉을 기획하고 콘티로 제작, <br />
+          시즌별 컨셉에 어울리는 무드의 스튜디오 어레인지 합니다. <br />
+          DSLR로 촬영 후 ADOBE TOOL로 색보정을 진행했습니다. <br />
         </p>
-
-        <div class="worklist__container container">
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__01_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__01_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__02_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__02_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__04_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__04_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__05_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__05_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__06_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__06_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider">
-            <figure>
-              <img src="./images/worklist/photo__07_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__07_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
-          </div>
-
-          <!-- 이미지 -->
-          <div class="comparison-slider slider___img">
-            <figure>
-              <img src="./images/worklist/photo__03_1.JPG" alt="before" />
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="./images/worklist/photo__03_2.JPG" alt="after" />
-              <figcaption>After</figcaption>
-            </figure>
+      </div>
+      <div id="ad_container1" class="ad-container">
+        <div class="text-area">
+          <h2>색감 보정</h2>
+        </div>
+        <div class="image-area">
+          <div class="worklist__container container">
+            <div class="comparison-slider">
+              <figure>
+                <img src="./images/Photo/photo__4-1.png" alt="before" />
+                <figcaption>Before</figcaption>
+              </figure>
+              <figure>
+                <img src="./images/Photo/photo__4-2.png" alt="after" />
+                <figcaption>After</figcaption>
+              </figure>
+            </div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-      <p class="footer__title">eunae hwang</p>
-
-      <div class="footer__social">
-        <!-- <a href="#" target="_blank" title="유튜브 링크"
-          ><i class="fa-brands fa-youtube footer__icon"></i
-        ></a> -->
-        <a
-          href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
-          target="_blank"
-          title="인스타그램 링크"
-          ><i class="fa-brands fa-square-instagram footer__icon"></i
-        ></a>
-        <a
-          href="https://github.com/eunaehwang"
-          target="_blank"
-          title="깃허브 링크"
-          ><i class="fa-brands fa-github footer__icon"></i
-        ></a>
       </div>
-      <p class="footer__copy">
-        Copyright &copy; 2024 eunae's portfolio All rights reserved.
-      </p>
-    </footer>
+      <div id="ad_container2" class="ad-container">
+        <div class="text-area">
+          <h2>세로 촬영</h2>
+        </div>
+        <div class="image-area">
+          <img src="/images/photo/c_1.png" alt="photo" />
+          <img src="/images/photo/c_2.png" alt="photo" />
+          <img src="/images/photo/c_3.png" alt="photo" />
+          <img src="/images/photo/c_4.png" alt="photo" />
+          <img src="/images/photo/c_5.png" alt="photo" />
+          <img src="/images/photo/c_6.png" alt="photo" />
+          <img src="/images/photo/c_7.png" alt="photo" />
+          <img src="/images/photo/c_8.png" alt="photo" />
+          <img src="/images/photo/c_9.png" alt="photo" />
+          <img src="/images/photo/c_10.png" alt="photo" />
+          <img src="/images/photo/c_11.png" alt="photo" />
+          <img src="/images/photo/c_12.png" alt="photo" />
+          <img src="/images/photo/c_13.png" alt="photo" />
+          <img src="/images/photo/c_14.png" alt="photo" />
+          <img src="/images/photo/c_15.png" alt="photo" />
+          <img src="/images/photo/c_16.png" alt="photo" />
+          <img src="/images/photo/c_17.png" alt="photo" />
+          <img src="/images/photo/c_18.png" alt="photo" />
+          <img src="/images/photo/c_19.png" alt="photo" />
+          <img src="/images/photo/c_20.png" alt="photo" />
+          <img src="/images/photo/c_21.png" alt="photo" />
+        </div>
+      </div>
+      <div id="ad_container3" class="ad-container">
+        <div class="text-area">
+          <h2>가로 촬영</h2>
+        </div>
+        <div class="image-area">
+          <img src="/images/photo/r_10.png" alt="photo" />
+          <img src="/images/photo/r_11.png" alt="photo" />
+          <img src="/images/photo/r_12.png" alt="photo" />
+          <img src="/images/photo/r_13.png" alt="photo" />
+          <img src="/images/photo/r_14.png" alt="photo" />
+          <img src="/images/photo/r_1.png" alt="photo" />
+          <img src="/images/photo/r_2.png" alt="photo" />
+          <img src="/images/photo/r_3.png" alt="photo" />
+          <img src="/images/photo/r_4.png" alt="photo" />
+          <img src="/images/photo/r_5.png" alt="photo" />
+          <img src="/images/photo/r_6.png" alt="photo" />
+          <img src="/images/photo/r_7.png" alt="photo" />
+          <img src="/images/photo/r_8.png" alt="photo" />
+          <img src="/images/photo/r_9.png" alt="photo" />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
