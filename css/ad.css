@@ -6,6 +6,11 @@ main {
   padding-bottom: 2rem;
 }
 
+.container {
+  margin-left: var(--spacing-3);
+  margin-right: var(--spacing-3);
+}
+
 .script-area {
   width: 60vw;
   color: var(--primary-color);

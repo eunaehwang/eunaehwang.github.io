@@ -16,6 +16,11 @@ header {
   padding: 1rem;
 } */
 
+.container {
+  margin-left: var(--spacing-3);
+  margin-right: var(--spacing-3);
+}
+
 .detail-numbering {
   display: flex;
   justify-content: center;

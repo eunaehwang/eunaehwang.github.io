@@ -3,6 +3,11 @@
 
 /* 기존 style.css의 header 스타일을 유지 */
 
+.container {
+  margin-left: var(--spacing-3);
+  margin-right: var(--spacing-3);
+}
+
 .detail-numbering {
   display: flex;
   justify-content: center;
