@@ -63,7 +63,9 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <!-- have fun! -->
-        <a href="have_fun.html" class="nav__link dokdo_font">HAVE FUN  <i class="fa-regular fa-face-smile"></i></a>
+        <a href="have_fun.html" class="nav__link dokdo_font"
+          >HAVE FUN <i class="fa-regular fa-face-smile"></i
+        ></a>
       </nav>
     </header>
     <main id="home">
@@ -435,51 +437,6 @@
         <div class="work__container container">
           <a
             class="work__link"
-            href="work_post.html"
-            target="_self"
-            title="엽서"
-          >
-          <div class="image-hover-container">
-            <img class="work__img" src="./images/work/work-card.jpg" alt="엽서" />
-            <!-- 호버하면 나오는 글씨 -->
-            <div class="hover-text">엽서 디자인</div>
-          </div>
-          </a>
-
-          <a
-            class="work__link"
-            href="work_label.html"
-            target="_self"
-            title="라벨"
-          >
-            <div class="image-hover-container">
-              <img
-                class="work__img"
-                src="./images/work/work-label.jpg"
-                alt="라벨"
-              />
-              <div class="hover-text">라벨 디자인</div>
-            </div>
-          </a>
-
-          <a
-            class="work__link"
-            href="work_sticker.html"
-            target="_self"
-            title="스티커"
-          >
-            <div class="image-hover-container">
-              <img
-                class="work__img"
-                src="./images/work/work-sticker.jpg"
-                alt="스티커"
-              />
-              <div class="hover-text">스티커 디자인</div>
-            </div>
-          </a>
-
-          <a
-            class="work__link"
             href="work_ad.html"
             target="_self"
             title="광고소재"
@@ -490,6 +447,7 @@
                 src="./images/work/work-sns.jpg"
                 alt="광고소재"
               />
+              <!-- 호버하면 나오는 글씨 -->
               <div class="hover-text">광고 소재 디자인</div>
             </div>
           </a>
@@ -500,14 +458,64 @@
             target="_self"
             title="상세페이지"
           >
-           <div class="image-hover-container">
+            <div class="image-hover-container">
               <img
                 class="work__img"
                 src="./images/work/work-detail.jpg"
                 alt="상세페이지"
               />
+              <!-- 호버하면 나오는 글씨 -->
               <div class="hover-text">상세페이지 제작</div>
-           </div>
+            </div>
+          </a>
+
+          <a
+            class="work__link"
+            href="work_post.html"
+            target="_self"
+            title="배너"
+          >
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-card.jpg"
+                alt="배너"
+              />
+              <!-- 호버하면 나오는 글씨 -->
+              <div class="hover-text">팝업 배너 디자인</div>
+            </div>
+          </a>
+
+          <a
+            class="work__link"
+            href="work_label.html"
+            target="_self"
+            title="패키지"
+          >
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-label.jpg"
+                alt="패키지"
+              />
+              <div class="hover-text">패키지 디자인</div>
+            </div>
+          </a>
+
+          <a
+            class="work__link"
+            href="work_sticker.html"
+            target="_self"
+            title="에디토리얼"
+          >
+            <div class="image-hover-container">
+              <img
+                class="work__img"
+                src="./images/work/work-sticker.jpg"
+                alt="에디토리얼"
+              />
+              <div class="hover-text">에디토리얼 디자인</div>
+            </div>
           </a>
 
           <a
@@ -530,9 +538,11 @@
 
       <!-- contact -->
       <section class="contact section" id="contact">
-        <h2 class="section__title">CONTACT <br> ME ! </h2>
+        <h2 class="section__title">
+          CONTACT <br />
+          ME !
+        </h2>
         <div class="contact__container">
-          
           <form
             id="contactForm"
             class="contact__form gform"
@@ -586,27 +596,6 @@
                 보내기
               </button>
             </div>
-            </form>
-            <!-- <div class="contact__social">
-              <a
-                href="https://www.instagram.com/eunaehwang_94?igsh=eHZ5cHQwejA5aDA5"
-                target="_blank"
-                title="인스타그램 링크"
-                ><i class="fa-brands fa-square-instagram contact__icon"></i
-              ></a>
-              <a
-                href="https://github.com/eunaehwang"
-                target="_blank"
-                title="깃허브 링크"
-                ><i class="fa-brands fa-github contact__icon"></i
-              ></a>
-            </div> -->
-            <!-- 양식 제출 시 나오는 메시지 -->
-            <div style="display: none" class="thankyou_message">
-              <h2>
-                <em>Thanks</em> for contacting us! We will get back to you soon!
-              </h2>
-            </div>
           </form>
         </div>
       </section>
@@ -615,14 +604,11 @@
       </button>
 
       <!-- Thanks -->
-      <section class="thanks container section"></section>
+      <section class="thanks container section">
+        <p class="thanks__copy">
+          Copyright &copy; 2024 eunae's portfolio All rights reserved.
+        </p>
+      </section>
     </main>
-
-    <!-- footer -->
-    <footer class="footer">
-      <p class="footer__copy">
-        Copyright &copy; 2024 eunae's portfolio All rights reserved.
-      </p>
-    </footer>
   </body>
 </html>
