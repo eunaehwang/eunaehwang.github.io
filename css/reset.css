@@ -148,3 +148,10 @@ input[type='button'] {
   outline: none;
   cursor: pointer;
 }
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%; /* 너비를 100%로 설정 */
+  height: 20px; /* 높이를 20px로 설정 */
+}
