@@ -109,4 +109,9 @@ main {
   .image-area {
     grid-template-columns: 1fr;
   }
+
+  .script-area,
+  .ad-container {
+    width: 90vw;
+  }
 }
